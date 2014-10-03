@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="clearfix"></div>
+  <div class="col-md-4">
+    <%= form_for @message do |f| %>
+        <div class="form-group">
+          <%= f.label :phone %>
+          <%= f.text_field :phone,:placeholder => "Enter Your Phone Number", :class=>"form-control", 'data-validation' => 'required', 'data-validation-error-msg' => 'Phone number should not Blank.' %>
+        </div>
+
+        <div class="form-group">
+          <%= f.label :Sms %>
+          <%= f.text_area :sms,:maxlength => 130,:cols=> "50", :rows=>"4", :id => 'text',:placeholder => "Enter Your Message", :class=>"form-control", 'data-validation' => 'required', 'data-validation-error-msg' => 'SMS should not Blank.'%>
+          <div id="chars">130</div>
+        </div>
+
+        <div class="form-group">
+          <%= f.submit "send", :class=>"btn btn-primary" %>
+        </div>
+    <% end %>
+  </div>
+</div>
+<script type="text/javascript">
+    $.validate();
+
+    $(document).ready( function() {
+        var elem = $("#chars");
+        $("#text").limiter(130, elem);
+    });
+</script>

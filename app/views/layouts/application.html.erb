@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sendsms</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<% if notice %>
+    <p class="alert alert-success"><%= notice %><a class="close" data-dismiss="alert">&#215;</a></p>
+<% end %>
+<% if alert %>
+    <p class="alert alert-danger"><%= alert %><a class="close" data-dismiss="alert">&#215;</a></p>
+<% end %>
+<%= link_to "HOME PAGE",root_path ,:class=>"btn btn-primary"%>
+
+<div class="nav pull-right">
+  <% if user_signed_in? %>
+      <strong><%=current_user.email %></strong>
+      <%#= link_to 'edit_profile',edit_user_registration_path %>
+      <%#= link_to 'Authentications', authentications_path %> |
+      <%= link_to 'log_out',destroy_user_session_path, method: :delete %>
+  <%else %>
+      <%= link_to 'sign_up',new_user_registration_path %>|
+      <%= link_to 'login', new_user_session_path %>|
+      <%= link_to "Twitter", user_omniauth_authorize_path(:twitter) %>|
+      <%= link_to "Facebook", user_omniauth_authorize_path(:facebook) %>
+  <%end %>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
