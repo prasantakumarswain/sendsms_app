@@ -1,6 +1,7 @@
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
+  require "omniauth-twitter"
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
@@ -23,7 +24,8 @@ Devise.setup do |config|
 
   # ==> Configuration for any authentication mechanism
   config.omniauth :twitter, 'jHW3Mi348jGM3midchfdLaotD', 'c8zPREclRq1RFgEEaqpvPEWIa7BKUHxYWSz5E7F7IJwihUmQzn'
-  config.omniauth :facebook,'749460548452689', 'a29a8e9eff2edbc66fd700abd04cb70e'#,{:scope => 'publish_stream, email'}
+  config.omniauth :facebook,'749460548452689', 'a29a8e9eff2edbc66fd700abd04cb70e'
+  require 'devise/orm/active_record'
   # Configure which keys are used when authenticating a user. The default is
   # just :email. You can configure it to use [:username, :subdomain], so for
   # authenticating a user, both parameters are required. Remember that those

@@ -55531,3 +55531,2587 @@ Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 00:04:
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 00:04:27 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-04 09:07:25 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (36.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 76ms
+
+NoMethodError (undefined method `post' for nil:NilClass):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (124.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-04 09:07:55 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2134ms (Views: 2132.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:58 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:59 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:59 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:59 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:59 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:59 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:59 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:59 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:59 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:59 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 09:07:59 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-04 10:07:09 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 724ms (Views: 722.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:07:09 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:07:09 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:07:10 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:07:20 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (663.3ms)
+Completed 200 OK in 1421ms (Views: 1372.2ms | ActiveRecord: 20.3ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:08:31 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 718ms (Views: 715.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:32 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:08:50 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 653ms (Views: 650.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:51 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:08:57 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 714ms (Views: 711.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:08:58 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:09:02 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 727ms (Views: 724.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:03 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:04 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:04 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:04 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:04 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:04 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:04 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:04 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:04 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:04 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:04 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:09:50 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 688ms (Views: 685.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:51 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:09:52 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:10:40 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 687ms (Views: 684.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:41 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:42 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:42 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:42 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:42 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:42 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:42 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:10:42 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:11:23 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 751ms (Views: 748.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:11:24 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 607ms (Views: 604.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:38 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:12:39 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:13:11 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 571ms (Views: 568.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:12 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:13 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:13 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:13 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:13 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:13 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:13 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:13 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:13:13 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:14:15 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 761ms (Views: 759.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:16 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:14:17 +0530
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 705ms (Views: 702.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:04 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:16:05 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-04 10:16:08 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 679ms (Views: 677.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-10-04 10:16:12 +0530
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (173.9ms)
+Completed 200 OK in 898ms (Views: 891.9ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-04 10:17:00 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 656ms (Views: 654.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-10-04 10:17:31 +0530
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 744ms (Views: 742.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-10-04 10:17:52 +0530
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 649ms (Views: 646.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:17:52 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:17:53 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-04 10:18:25 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 689ms (Views: 687.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-10-04 10:18:27 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 735ms (Views: 733.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/twitter" for 127.0.0.1 at 2014-10-04 10:18:34 +0530
+
+
+Started GET "/users/auth/twitter" for 127.0.0.1 at 2014-10-04 10:18:37 +0530
+
+
+Started GET "/users/auth/twitter/callback?oauth_token=2GRHGVk6XerAXBCSE1ukcSVXcwXTOr7E&oauth_verifier=L83KBV9pEvx7QAMxRS9xQdUYCEuZJgRb" for 127.0.0.1 at 2014-10-04 10:19:19 +0530
+Processing by AuthenticationsController#twitter as HTML
+  Parameters: {"oauth_token"=>"2GRHGVk6XerAXBCSE1ukcSVXcwXTOr7E", "oauth_verifier"=>"L83KBV9pEvx7QAMxRS9xQdUYCEuZJgRb"}
+  [1m[35mAuthentication Load (15.4ms)[0m  SELECT  "authentications".* FROM "authentications"  WHERE "authentications"."provider" = 'twitter' AND "authentications"."uid" = '483993846' LIMIT 1
+  [1m[36mUser Load (11.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 3[0m  [["current_sign_in_at", "2014-10-04 04:49:23.802492"], ["last_sign_in_at", "2014-10-03 18:34:25.631488"], ["sign_in_count", 3], ["updated_at", "2014-10-04 04:49:23.805151"]]
+  [1m[35m (18.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 140ms (ActiveRecord: 46.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-04 10:19:23 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 676ms (Views: 673.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:24 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:25 +0530
+
+
+Started DELETE "/users/logout" for 127.0.0.1 at 2014-10-04 10:19:28 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vi3rGFlOe9afMJRvy22ijFOqRAHYlX0owiM4SBy03DI="}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 49ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-04 10:19:28 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 721ms (Views: 719.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:29 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:30 +0530
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-10-04 10:19:32 +0530
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-10-04 10:19:33 +0530
+
+
+Started GET "/users/auth/facebook/callback?code=AQBpCnQA7po-fqbJSj_KuXufPLHjw4ncrnSzruqq8AhcR091lRwz43SZjs-Qq2LEkI-vWVuX4iSR9QhU01ZPIx8EWvSXgDzhlSbCjtw-vZE3teYm8BkMiNgOCnavSo-mir5rt35YqnBNYBdqeh_CiMhE75CQsOupNGD8U3Gksv3DMlhBQf5mArJKJdHjeIfpY4Furbe9HF_uxQYbmBnqa2ZfQcOSS2Y-jyzJ2aLxzLhoTbqKPqkVl7R8tEsQeb7Q5EGvSXMGw6pNkWEZU0uF8lw1u8nPkDLBgpr9q4jxCs6_EIxRiyqr5zwxU8CIBPHJE1MWNbF1iKJ0ogdDJUHODzZM&state=706c5ca3b1ebdbc937c285f42ee6b4dc77eb4c5d450fddca" for 127.0.0.1 at 2014-10-04 10:19:34 +0530
+Processing by AuthenticationsController#facebook as HTML
+  Parameters: {"code"=>"AQBpCnQA7po-fqbJSj_KuXufPLHjw4ncrnSzruqq8AhcR091lRwz43SZjs-Qq2LEkI-vWVuX4iSR9QhU01ZPIx8EWvSXgDzhlSbCjtw-vZE3teYm8BkMiNgOCnavSo-mir5rt35YqnBNYBdqeh_CiMhE75CQsOupNGD8U3Gksv3DMlhBQf5mArJKJdHjeIfpY4Furbe9HF_uxQYbmBnqa2ZfQcOSS2Y-jyzJ2aLxzLhoTbqKPqkVl7R8tEsQeb7Q5EGvSXMGw6pNkWEZU0uF8lw1u8nPkDLBgpr9q4jxCs6_EIxRiyqr5zwxU8CIBPHJE1MWNbF1iKJ0ogdDJUHODzZM", "state"=>"706c5ca3b1ebdbc937c285f42ee6b4dc77eb4c5d450fddca"}
+  [1m[36mAuthentication Load (0.9ms)[0m  [1mSELECT  "authentications".* FROM "authentications"  WHERE "authentications"."provider" = 'facebook' AND "authentications"."uid" = '783376665054638' LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = 2  [["current_sign_in_at", "2014-10-04 04:49:37.666152"], ["sign_in_count", 2], ["updated_at", "2014-10-04 04:49:37.668228"]]
+  [1m[36m (21.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 39ms (ActiveRecord: 23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-04 10:19:37 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 684ms (Views: 682.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:38 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:39 +0530
+
+
+Started DELETE "/users/logout" for 127.0.0.1 at 2014-10-04 10:19:41 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"x0Yb6pWFxZOJYsSB6TAEV1K3IqZCeIeWzlXm83uX7VM="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-04 10:19:41 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 712ms (Views: 711.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:19:42 +0530
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-10-04 10:21:27 +0530
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 697ms (Views: 694.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-10-04 10:21:36 +0530
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 670ms (Views: 667.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:37 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:21:38 +0530
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-10-04 10:22:03 +0530
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 718ms (Views: 716.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:04 +0530
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-10-04 10:22:56 +0530
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 686ms (Views: 684.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:57 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:22:58 +0530
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-10-04 10:23:36 +0530
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 733ms (Views: 730.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-10-04 10:23:36 +0530
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-10-04 10:23:36 +0530
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-04 10:23:36 +0530
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-10-04 10:23:36 +0530
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-10-04 10:23:36 +0530
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/verifications.css?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/custome.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/jquery.form-validator.min.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/verifications.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-04 10:23:37 +0530
